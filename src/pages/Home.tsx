@@ -1,7 +1,7 @@
 import React, { FormEvent } from 'react';
 import { useHistory } from 'react-router-dom';
 
-import { useAuth } from '../hooks/UseAuth';
+import { useAuth } from '../hooks/useAuth';
 
 import { Button } from '../components/Button'
 
@@ -37,6 +37,11 @@ export const Home: React.FC = () => {
 
     if(!roomRef.exists()){
       alert('Room does not exists');
+      return
+    }
+
+    if(roomRef.val().endedAt){
+      alert('Room already closed.');
       return
     }
 
