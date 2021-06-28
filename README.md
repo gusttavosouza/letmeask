@@ -34,6 +34,10 @@ O <b>Letmeask</b> é um aplicação que tem intuito de servir como um gerenciado
 - Executar `yarn install` para instalar dependências do projeto;
 - Executar `yarn start` para que o projeto seja executado;
 
+## 🌐 Disponível em
+
+Link: https://letmeask-b84b0.web.app/
+
 ## ♻️ Como contribuir
 
 - Faça um fork desse repositório;
